@@ -1,10 +1,12 @@
 import Link from "next/link";
 import {
   Home,
-  Users,
-  Banknote,
   Settings,
   ArrowLeftRight,
+  Banknote,
+  TrendingUp,
+  Send,
+  LogOut,
 } from "lucide-react";
 
 import { userData } from "@/lib/data";
@@ -46,6 +48,12 @@ export default function DashboardLayout({
             </SidebarMenuItem>
             <SidebarMenuItem>
               <SidebarMenuButton href="#">
+                <Send />
+                Transfer
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton href="#">
                 <ArrowLeftRight />
                 Transactions
               </SidebarMenuButton>
@@ -53,13 +61,13 @@ export default function DashboardLayout({
             <SidebarMenuItem>
               <SidebarMenuButton href="#">
                 <Banknote />
-                Accounts
+                Accounts & Cards
               </SidebarMenuButton>
             </SidebarMenuItem>
             <SidebarMenuItem>
               <SidebarMenuButton href="#">
-                <Users />
-                Recipients
+                <TrendingUp />
+                Investments
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>
@@ -70,6 +78,12 @@ export default function DashboardLayout({
               <SidebarMenuButton href="#">
                 <Settings />
                 Settings
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton href="/login">
+                <LogOut />
+                Logout
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>

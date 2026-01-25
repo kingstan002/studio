@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 200 14% 94%;
+    --background: 210 17% 95%;
     --foreground: 224 71.4% 4.1%;
     --card: 0 0% 100%;
     --card-foreground: 224 71.4% 4.1%;
@@ -33,7 +33,7 @@
     --sidebar-foreground: 224 71.4% 4.1%;
     --sidebar-primary: 207 82% 67%;
     --sidebar-primary-foreground: 224 71.4% 4.1%;
-    --sidebar-accent: 200 14% 94%;
+    --sidebar-accent: 210 17% 95%;
     --sidebar-accent-foreground: 224 71.4% 4.1%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 207 82% 67%;
