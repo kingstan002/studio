@@ -1,17 +1,15 @@
-import { AiChatButton } from "@/components/landing/ai-chat-button";
+import { Stats } from "@/components/landing/stats";
 import { Footer } from "@/components/landing/footer";
-import { Hero } from "@/components/landing/hero";
 import { LandingNavbar } from "@/components/landing/navbar";
 
-export default function LandingPage() {
+export default function SecurityPage() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <LandingNavbar />
       <main className="flex-1">
-        <Hero />
+        <Stats />
       </main>
       <Footer />
-      <AiChatButton />
     </div>
   );
 }

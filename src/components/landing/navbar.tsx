@@ -11,16 +11,16 @@ export function LandingNavbar() {
           <Logo />
         </div>
         <div className="flex items-center space-x-6 text-sm font-medium">
-          <Link href="#features" className="text-muted-foreground transition-colors hover:text-foreground">
+          <Link href="/features" className="text-muted-foreground transition-colors hover:text-foreground">
             Features
           </Link>
-          <Link href="#security" className="text-muted-foreground transition-colors hover:text-foreground">
+          <Link href="/security" className="text-muted-foreground transition-colors hover:text-foreground">
             Security
           </Link>
-          <Link href="#testimonials" className="text-muted-foreground transition-colors hover:text-foreground">
+          <Link href="/testimonials" className="text-muted-foreground transition-colors hover:text-foreground">
             Testimonials
           </Link>
-          <Link href="#footer" className="text-muted-foreground transition-colors hover:text-foreground">
+          <Link href="/contact" className="text-muted-foreground transition-colors hover:text-foreground">
             Contact
           </Link>
         </div>

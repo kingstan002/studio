@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export function Footer() {
     return (
-        <footer id="footer" className="bg-muted border-t">
+        <footer className="bg-muted border-t">
             <div className="container py-12">
                 <div className="grid gap-8 lg:grid-cols-4">
                     <div className="lg:col-span-1">
@@ -18,27 +18,27 @@ export function Footer() {
                         <div>
                             <h4 className="font-semibold">Product</h4>
                             <ul className="mt-4 space-y-2 text-sm">
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Features</Link></li>
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Security</Link></li>
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Pricing</Link></li>
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Integrations</Link></li>
+                                <li><Link href="/features" className="text-muted-foreground hover:text-foreground">Features</Link></li>
+                                <li><Link href="/security" className="text-muted-foreground hover:text-foreground">Security</Link></li>
+                                <li><Link href="/pricing" className="text-muted-foreground hover:text-foreground">Pricing</Link></li>
+                                <li><Link href="/integrations" className="text-muted-foreground hover:text-foreground">Integrations</Link></li>
                             </ul>
                         </div>
                         <div>
                             <h4 className="font-semibold">Company</h4>
                             <ul className="mt-4 space-y-2 text-sm">
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">About Us</Link></li>
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Careers</Link></li>
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Press</Link></li>
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Contact</Link></li>
+                                <li><Link href="/about" className="text-muted-foreground hover:text-foreground">About Us</Link></li>
+                                <li><Link href="/careers" className="text-muted-foreground hover:text-foreground">Careers</Link></li>
+                                <li><Link href="/press" className="text-muted-foreground hover:text-foreground">Press</Link></li>
+                                <li><Link href="/contact" className="text-muted-foreground hover:text-foreground">Contact</Link></li>
                             </ul>
                         </div>
                         <div>
                             <h4 className="font-semibold">Legal</h4>
                             <ul className="mt-4 space-y-2 text-sm">
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Privacy Policy</Link></li>
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Terms of Service</Link></li>
-                                <li><Link href="#" className="text-muted-foreground hover:text-foreground">Cookie Policy</Link></li>
+                                <li><Link href="/privacy" className="text-muted-foreground hover:text-foreground">Privacy Policy</Link></li>
+                                <li><Link href="/terms" className="text-muted-foreground hover:text-foreground">Terms of Service</Link></li>
+                                <li><Link href="/cookies" className="text-muted-foreground hover:text-foreground">Cookie Policy</Link></li>
                             </ul>
                         </div>
                     </div>
