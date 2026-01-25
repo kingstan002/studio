@@ -49,17 +49,17 @@ export function Hero() {
         </Carousel>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-4">
             <h1 className="text-4xl md:text-6xl font-bold !text-white tracking-tight">
-                Banking for the Modern World
+                Your money, secured with next-gen technology.
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-white/80">
-                Secure, simple, and powerful digital banking. Join thousands of satisfied customers today.
+                Join thousands who trust Verity Bank for secure, simple, and powerful digital banking.
             </p>
             <div className="mt-8 flex gap-4">
                 <Button size="lg" asChild>
-                    <Link href="/signup">Get Started for Free</Link>
+                    <Link href="/signup">Open Account in Minutes</Link>
                 </Button>
-                <Button size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-black">
-                    Contact Sales
+                <Button size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-black" asChild>
+                    <Link href="/banking-services">Explore Features</Link>
                 </Button>
             </div>
         </div>

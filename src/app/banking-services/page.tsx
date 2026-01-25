@@ -1,15 +1,15 @@
 import { LandingNavbar } from "@/components/landing/navbar";
 import { Footer } from "@/components/landing/footer";
 
-export default function SecurityPage() {
+export default function BankingServicesPage() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <LandingNavbar />
       <main className="flex-1 container py-12 lg:py-24">
         <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight md:text-5xl">Security & Trust</h1>
+            <h1 className="text-4xl font-bold tracking-tight md:text-5xl">Banking Services</h1>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-                This is a placeholder page for Security & Trust. Content will be added later.
+                This is a placeholder page for Banking Services. Content will be added later.
             </p>
         </div>
       </main>

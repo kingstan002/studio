@@ -11,14 +11,23 @@ export function LandingNavbar() {
           <Logo />
         </div>
         <div className="flex items-center space-x-6 text-sm font-medium">
-          <Link href="/features" className="text-muted-foreground transition-colors hover:text-foreground">
-            Features
+          <Link href="/" className="text-foreground transition-colors hover:text-foreground/80">
+            Home
+          </Link>
+          <Link href="/banking-services" className="text-muted-foreground transition-colors hover:text-foreground">
+            Banking Services
+          </Link>
+          <Link href="/accounts-cards" className="text-muted-foreground transition-colors hover:text-foreground">
+            Accounts & Cards
+          </Link>
+          <Link href="/investments" className="text-muted-foreground transition-colors hover:text-foreground">
+            Investments
           </Link>
           <Link href="/security" className="text-muted-foreground transition-colors hover:text-foreground">
-            Security
+            Security & Trust
           </Link>
-          <Link href="/testimonials" className="text-muted-foreground transition-colors hover:text-foreground">
-            Testimonials
+          <Link href="/about" className="text-muted-foreground transition-colors hover:text-foreground">
+            About Us
           </Link>
           <Link href="/contact" className="text-muted-foreground transition-colors hover:text-foreground">
             Contact

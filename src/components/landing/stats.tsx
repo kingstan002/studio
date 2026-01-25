@@ -1,31 +1,31 @@
-import { Shield, TrendingUp, Users, DollarSign } from 'lucide-react';
+import { Shield, TrendingUp, Users, Globe } from 'lucide-react';
 
 const stats = [
-  {
-    icon: <DollarSign className="h-8 w-8 text-primary" />,
-    value: '$10B+',
-    label: 'Processed Annually',
-  },
-  {
-    icon: <Users className="h-8 w-8 text-primary" />,
-    value: '1.2M+',
-    label: 'Happy Customers',
-  },
-  {
-    icon: <Shield className="h-8 w-8 text-primary" />,
-    value: 'Fort-Knox',
-    label: 'Security Level',
-  },
-  {
-    icon: <TrendingUp className="h-8 w-8 text-primary" />,
-    value: '99.99%',
-    label: 'Uptime Guarantee',
-  },
-];
+    {
+      icon: <Shield className="h-8 w-8 text-primary" />,
+      value: '256-bit Encryption',
+      label: 'Bank-Grade Security',
+    },
+    {
+      icon: <Users className="h-8 w-8 text-primary" />,
+      value: '1.2M+',
+      label: 'Happy Customers',
+    },
+    {
+      icon: <Globe className="h-8 w-8 text-primary" />,
+      value: '12 Countries',
+      label: 'Operations Worldwide',
+    },
+    {
+      icon: <TrendingUp className="h-8 w-8 text-primary" />,
+      value: '99.99%',
+      label: 'Uptime Guarantee',
+    },
+  ];
 
 export function Stats() {
   return (
-    <section className="bg-muted py-12 lg:py-24">
+    <section className="bg-background py-12 lg:py-24">
       <div className="container">
         <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
