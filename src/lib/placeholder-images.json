@@ -5,6 +5,42 @@
       "description": "User avatar",
       "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjkyODc2NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
+    },
+    {
+      "id": "hero-1",
+      "description": "Modern city skyline at dusk",
+      "imageUrl": "https://images.unsplash.com/photo-1519638399535-1b036603ac77?q=80&w=1920&h=1080&fit=crop",
+      "imageHint": "city skyline"
+    },
+    {
+      "id": "hero-2",
+      "description": "Person using a laptop for online banking",
+      "imageUrl": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1920&h=1080&fit=crop",
+      "imageHint": "online banking"
+    },
+    {
+      "id": "hero-3",
+      "description": "Abstract geometric shapes with a soft color palette",
+      "imageUrl": "https://images.unsplash.com/photo-1604079628040-94301bb21b91?q=80&w=1920&h=1080&fit=crop",
+      "imageHint": "abstract background"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Portrait of Sarah J.",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=200&h=200&fit=crop&facepad=5&fp-x=0.5&fp-y=0.3",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Portrait of Mark C.",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&h=200&fit=crop&facepad=5&fp-x=0.5&fp-y=0.3",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Portrait of Emily R.",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&h=200&fit=crop&facepad=5&fp-x=0.5&fp-y=0.3",
+      "imageHint": "woman portrait"
     }
   ]
 }
