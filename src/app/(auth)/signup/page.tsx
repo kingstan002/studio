@@ -67,6 +67,7 @@ export default function SignupPage() {
         title: "Account Created",
         description: "You have successfully signed up. Redirecting to login...",
       });
+      form.reset();
       router.push("/login");
     }, 1500);
   }

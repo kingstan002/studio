@@ -60,6 +60,7 @@ export default function LoginPage() {
           title: "Login Successful",
           description: "Welcome back! Redirecting to your dashboard.",
         });
+        form.reset();
         router.push("/dashboard");
       } else {
         // This case is largely handled by form validation, but good for robustness
